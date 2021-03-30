@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+Link{
+    float: left;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

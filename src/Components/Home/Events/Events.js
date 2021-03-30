@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Events = ({event}) => {
-    
+const Events = (props) => {
+    const {name, pic} = props.event;
     return (
-        <div>
-            <h3>{event.name}</h3>
-            <img src={event.pic} alt=""/>
+        <div style={{width: '100%'}}>
+            <h3>{name}</h3>
+            <img src={pic} alt="" width="50%"/> <br/>
+            <button>Buy Now</button>
         </div>
     );
 };
